@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageViewIv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:src="@drawable/movie_icon"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/titleNameView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/title"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorPrimaryText"
+                />
+            <TextView
+                android:id="@+id/languageTView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/language"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimaryText"/>
+
+            <TextView
+                android:id="@+id/VoteAvgView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/vote_average"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimaryText"/>
+            <TextView
+                android:id="@+id/ReleaseDateView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/releasedate"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimaryText"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
